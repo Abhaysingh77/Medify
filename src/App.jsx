@@ -1,10 +1,10 @@
 import Quote from "../components/quotation/quote" ;
-import Navbar from "../components/navbar/navbar";
+import HeroSection from "../components/Hero/heroSection";
 function App() {
   return (
     <>
       <Quote />
-      <Navbar />
+      <HeroSection />
     </>
   )
 }
