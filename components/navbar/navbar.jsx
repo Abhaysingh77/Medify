@@ -10,7 +10,7 @@ export default function Navbar() {
           <li>Surgeries</li>
           <li>Software for Provider</li>
           <li>Facilities</li>
-          <li className={Style.booking}>My Bookings</li>
+          <li className={Style.booking} style={{height:'3.5vmax'}}>My Bookings</li>
         </ul>
     </nav>
   );

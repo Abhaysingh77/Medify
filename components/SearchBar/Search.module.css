@@ -72,3 +72,7 @@
   border: none;
   background-color: #fafbfe;
 }
+
+.heroSearch input:focus{
+  outline: none;
+}

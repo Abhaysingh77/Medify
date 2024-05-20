@@ -1,0 +1,68 @@
+.carousel{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;    
+}
+.carousel::-webkit-scrollbar {
+    display: none;  
+}
+
+.carousel div {
+    flex: 0 0 auto;
+    width: 33%;
+    height: 25vh;
+}
+
+.offer1{
+    background-image: url('../../assets/images/offer\ 1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.offer2{
+    background-image: url('../../assets/images/offer\ 2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navigation{
+    width: 80%;
+    margin: auto;
+    margin-top: -8%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navigation div:nth-child(1), .navigation div:nth-child(3){
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #BCD8E9;
+    background-color: #BCD8E9;
+}
+
+.navigation div:nth-child(2){
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    border: 1px solid var(--color-blue);
+    margin: 0px 5px 0px 5px;
+}
+.middle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #BCD8E9;
+    background-color: #BCD8E9;
+    margin: 0px 0.5px 1.5px 0px ;
+}

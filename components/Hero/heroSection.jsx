@@ -31,7 +31,7 @@ export default function HeroSection() {
       <div className={Style.locate}>
         <Search text="hero" />
 
-        <h4 style={{ marginTop: "3%" }}>You may be looking for</h4>
+        <h3 style={{ marginTop: "3%" }}>You may be looking for</h3>
         <div className={Style.cards}>
           <div>
             <svg
