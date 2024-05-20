@@ -1,6 +1,8 @@
 :root {
   /* Global variables to be defined here */
-  /* --color-white: #ffffff; */
+  --color-white: #ffffff;
+  --color-blue : #2AA7FF;
+  --font-primary: 'Poppins';
 }
 
 *,

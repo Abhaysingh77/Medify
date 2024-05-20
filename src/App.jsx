@@ -1,8 +1,9 @@
-import React from 'react'
-
+import Quote from "../components/quotation/quote" 
 function App() {
   return (
-    <div>App</div>
+    <>
+      <Quote />
+    </>
   )
 }
 
