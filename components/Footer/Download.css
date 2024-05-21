@@ -1,0 +1,50 @@
+.download-section {
+  background-color: #e0f7fa;
+  font-family: var(--font-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+
+.app-preview {
+  display: flex;
+  align-items: center;
+}
+
+.app-preview img {
+  width: 60%;
+  height: 40%;
+}
+
+.app-links a img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+.arrow {
+  position: relative;
+  right: 20%;
+}
+
+.contact {
+}
+.send,
+#number,
+.span {
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+}
+
+.send {
+  background-color: var(--color-blue);
+  color: #ffffff;
+}
+.span {
+    border-right: 1px solide whitesmoke;
+}

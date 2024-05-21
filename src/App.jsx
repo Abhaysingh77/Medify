@@ -1,17 +1,11 @@
-import Quote from "../components/quotation/quote";
-import HeroSection from "../components/Hero/heroSection";
-// import Search from "../components/SearchBar/Search";
-import Carousel from "../components/offers/carousel";
-import FAQSection from "../components/FAQ/Faq";
+import Homepage from "../pages/Homepage/Homepage";
+import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <Quote />
-      <HeroSection />
-      {/* <Search /> */}
-      <Carousel />
-      <FAQSection />
-    </>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+    </Routes>
   );
 }
 
