@@ -7,6 +7,10 @@
   font-family: var(--font-primary);
   box-shadow: 6px 6px 35px 0px #1028511c;
   border-radius: 10px;
+  margin: auto;
+  margin-top: -30px;
+  background-color: #ffffff;
+  
 }
 
 .search div {
@@ -35,9 +39,67 @@
 .search select {
   border: none;
   background-color: #fafbfe;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.search select:focus {
+  outline: none;
+}
+.cards{
+  width: 50vw;
+  margin: auto;
+  height: 100%;
+  font-family: var(--font-primary);
+}
+.card {
+  width: 100%;
+  height: 40vh;
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.appointment{
+  display: flex;
+  background-color: #FFFFFF;
+}
+.logo {
+  width: 20%;
+  height: 60%;
+  background-image: url("../../assets/images/hospital.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.desc{
+  width: 50%;
+  height: 60%;
+  margin: auto;
+  margin-left: 6%;
 }
 
+.avail{
+  width: 32%;
+  height: 60%;
+  text-align: center;
+  position: relative;
+  bottom: -60%;
+  right: 2%;
+  
+}
+.avail button {
+  width: max-content;
+  height: max-content;
+  border: 1px solid #14BEF0;
+  background-color: var(--color-blue);
+  color:#FFFFFF;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
 /* --------hero section heroSearch bar------------- */
+
 .heroSearch {
   width: 80%;
   height: 15vh;
@@ -71,8 +133,9 @@
 .heroSearch select {
   border: none;
   background-color: #fafbfe;
+  cursor: pointer;
 }
 
-.heroSearch select:focus{
+.heroSearch select:focus {
   outline: none;
 }
