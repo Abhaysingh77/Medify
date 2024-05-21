@@ -32,7 +32,7 @@
   color: #ffffff;
   cursor: pointer;
 }
-.search input {
+.search select {
   border: none;
   background-color: #fafbfe;
 }
@@ -68,11 +68,11 @@
   color: #ffffff;
   cursor: pointer;
 }
-.heroSearch input {
+.heroSearch select {
   border: none;
   background-color: #fafbfe;
 }
 
-.heroSearch input:focus{
+.heroSearch select:focus{
   outline: none;
 }

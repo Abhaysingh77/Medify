@@ -2,7 +2,7 @@ import Style from './navbar.module.css';
 export default function Navbar() {
   return (
     <nav className={Style.navbar}>
-      <img src='../assets/images/logo.png' alt="" className={Style.logo} />
+      <img src="../assets/images/logo.png" alt="logo" className={Style.logo} />
         <ul className={Style.navItems}>
           <li>Find Doctors</li>
           <li>Hospitals</li>
