@@ -23,7 +23,7 @@ function Search({ text }) {
 
   const handleSearch = async() =>{
     const data = await getMedicalCenters(state.current, city.current);
-    console.log(data[0]);
+    console.log(data);
   }
   useEffect(() => {
     (async () => {
@@ -36,7 +36,7 @@ function Search({ text }) {
       <div>
         <IoMdSearch />
         <select name="state" id="state" onChange={handleStateChange}>
-          <option value="states">States</option>
+          <option>States</option>
           {console.log(states)}
           {states.map((item) => {
             return (
@@ -50,7 +50,7 @@ function Search({ text }) {
       <div>
         <IoMdSearch />
         <select name="city" id="city" onChange={handleCityChange}>
-          <option value="city">Cities</option>
+          <option>Cities</option>
           {cities.map((item) => {
             return (
               <option key={item} value={item}>
